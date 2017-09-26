@@ -59,13 +59,13 @@
 				<div class="footer-content">
 					<ul>
 						<li class="light-red">
-							<a href="index.php" class="shouye">
+							<a href="note.php" class="shouye">
 								<i class="glyphicon glyphicon-home"></i>
 								<div>工作笔记</div>
 							</a>
 						</li>
 						<li class="grey">
-							<a href="leave.php" class="weianqi">
+							<a href="exchange.php" class="weianqi">
 								<i class="glyphicon glyphicon-time"></i>
 								<div>经验交流</div>
 							</a>
