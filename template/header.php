@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="assets/css/other.css">
 	
 	<script type="text/javascript" src="assets/js/iscroll.js"></script>
+	<script type="text/javascript" src="assets/js/hammer.min.js"></script>
 	<script type="text/javascript">
 		var myScroll;
 		function loaded () {
@@ -22,7 +23,7 @@
 	</script>
 
 </head>
-<body onload="loaded()">
+<body class="no-skin" onload="loaded()">
 
 	<div id="navbar" class="navbar navbar-default navbar-fixed-top">
 		<div class="navbar-container" id="navbar-container">

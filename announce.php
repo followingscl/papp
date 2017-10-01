@@ -1,41 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta name="description" content="User login page" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-	<title>互联网安全平台</title>
-		<link rel="stylesheet" href="assets/css/other.css">
+<?php include 'template/header.php' ?>
 
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="assets/css/ace.min.css" />
-	
-</head>
-<body>
-  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
-			<div class="navbar-container" id="navbar-container">
 			<a class="back">
-				<img src="assets/img/back.png" alt="" style="width: 1rem">
-			</a>
-			<script type="text/javascript">
+					<img src="assets/img/back.png" alt="" style="width: 1rem">
+				</a>
+				<script type="text/javascript">
 					var ass = document.getElementsByTagName('a');
 					for(var i = 0;i < ass.length;i ++){
 						if(ass[i].getAttribute('class') == 'back'){
 							var hammertime = new Hammer(ass[i]);
 		          hammertime.on("tap", function (ev) {
-		              	window.history.go(-1);
+		            window.history.go(-1);
 		          });
 						}
 					}
 				</script>
-			<div class="title">发布</div>
-			<!-- <a class="back pull-right" style="">
-				<i class="glyphicon glyphicon-remove-sign"></i>
-			</a> -->
+				<div class="title">发布</div>
 			</div>
   </div>
-  <div id="main-container" clss="main-container" style="padding-top: 50px;">
+  <div id="wrapper">
+		<div id="scroller">
+		  <div id="main-container" clss="main-container" style="padding-top: 50px;">
 			  <div class="stmm">
 			  <form role="form">
 			    <table class="table">
@@ -50,7 +34,11 @@
 			    </div>
 			    </form>
 			  </div>
+			</div>
+		</div>
 	</div>
-  
+  <?php 
+		include 'template/footer.php'
+	?>
 </body>
 </html>

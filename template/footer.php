@@ -15,13 +15,13 @@
 						</a>
 					</li>
 					<li class="grey">
-						<a href="query.php" class="chaxun">
+						<a href="110.php" class="chaxun">
 							<i class="ace-icon fa fa-car"></i>
 							<div>110</div>
 						</a>
 					</li>
 					<li class="light-blue">
-						<a href="more.php" class="more">
+						<a href="monitor.php" class="more">
 							<i class="ace-icon fa fa-camera-retro"></i>
 							<div>视频监控</div>
 						</a>

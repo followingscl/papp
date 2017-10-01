@@ -1,5 +1,5 @@
 <?php include 'template/header.php' ?>
-		<a class="back">
+		<a class="back" href="user_info.php">
 			<i class="glyphicon glyphicon-user"></i>
 		</a>
 		<div class="title">互联网安全平台</div>
@@ -11,7 +11,7 @@
 
 			<div class="main-container index" style="padding-top: 0;background: #F4F4F4;">
 				<div class="main-container-inner">
-				<div id="allmap" style="height: 260px;"></div>
+					<div id="allmap" style="height: 260px;"></div>
 		    </div>
 
 		    <div class="row text-center tasks" style="">
@@ -66,15 +66,17 @@
 						<div class="icon-text">整改进度</div>
 					</div>
 					<div class="col-xs-6 text-center syinner">
-						<div class="index_icon" style="background: #16C3BC">
-							<i class="ace-icon fa fa-desktop white" style="font-size: 2em"></i>
-						</div>
+						<a href="notin.php">
+							<div class="index_icon" style="background: #16C3BC">
+								<i class="ace-icon fa fa-desktop white" style="font-size: 2em"></i>
+							</div>
+						</a>
 						<!-- <img src="assets/img/2.png" alt=""> -->
 						<div class="icon-text">曝光台</div>
 					</div>
 				</div>
-
 			</div>
+
 		</div>
 	</div>
 
