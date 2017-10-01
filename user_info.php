@@ -1,4 +1,19 @@
-<?php include 'template/header.php' ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="description" content="User login page" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<title>互联网安全平台</title>
+		<link rel="stylesheet" href="assets/css/other.css">
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/ace.min.css" />
+</head>
+<body>
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar-container" id="navbar-container">
 			<a class="back">
 				<img src="assets/img/back.png" alt="" style="width: 1rem">
 			</a>
@@ -13,57 +28,81 @@
 						}
 					}
 				</script>
-				<a style="float: right;
-				padding-top: 3%;padding-right: 3%;position: relative; color: #ffffff; font-size: 18px;">
-				  保存
-				</a>
 			<div class="title">个人信息</div>
-		</div>
+			<div class="navbar-text pull-right" style="margin-top: -30px; margin-right: 10px; ">保存</div>
+			</div>
   </div>
-  <div id="wrapper">
-		<div id="scroller">
-		  <div id="main-container" clss="main-container" style="padding-top: 70px; padding-left: 10px; padding-right: 10px;"> 
-          <ul class="list-group">
-              <li class="list-group-item">
-                <lable class="inline"></lable> 
-                <a href="#" class="pull-right" style="color:#000000;">修改头像</a>              
-              </li>
-              <li class="list-group-item">
-              <lable class="inline">昵称</lable>
-              <span class="pull-right"></span>            
-               </li>
-              <li class="list-group-item">
-              <lable class="inline">职位</lable> 
-              <span class="pull-right"></span>             
-              </li>
-              <li class="list-group-item">
-               <lable class="inline">隶属</lable>
-               <span class="pull-right"></span>
-              </li>
-              <li class="list-group-item">
-              <lable class="inline">单位</lable>
-              <span class="pull-right"></span>
-              </li>
-              <li class="list-group-item">
-              <lable class="inline">联系方式</lable>
-              <span class="pull-right"></span>
-              </li>
-              <li class="list-group-item">
-              <a href="#" class="inline" style="color:#000000;">修改密码</a>
-               
-              </li>
-              <li class="list-group-item">
-              <lable class="inline">版本更新</lable>
-              <span class="pull-right"></span>
-              </li>
-              <li class="list-group-item">
-              <a href="#" class="inline" style="color:#000000;">关于我们</a>
-               
-              </li>
-          </ul>
-
-		  </div>
+  <div id="main-container" clss="main-container" style="padding-top: 80px;">
+    <table class="table">
+      <tr>
+        <td><img src="" width="50px" height="50px"></td>
+        <td>修改头像</td>
+      </tr>
+      <tr>
+        <td>昵称</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>职位</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>隶属</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>单位</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>联系方式</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>修改密码</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>版本更新</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>关于我们</td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+  <div class="footer">
+			<div class="footer-inner">
+				<div class="footer-content">
+					<ul>
+						<li class="light-red">
+							<a href="note.php" class="shouye">
+								<i class="glyphicon glyphicon-home"></i>
+								<div>工作笔记</div>
+							</a>
+						</li>
+						<li class="grey">
+							<a href="exchange.php" class="weianqi">
+								<i class="glyphicon glyphicon-time"></i>
+								<div>经验交流</div>
+							</a>
+						</li>
+						<li class="grey">
+							<a href="query.php" class="chaxun">
+								<i class="glyphicon glyphicon-search"></i>
+								<div>110</div>
+							</a>
+						</li>
+						<li class="light-blue">
+							<a href="more.php" class="more">
+								<i class="glyphicon glyphicon-user"></i>
+								<div>视频监控</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</div>
-	</div>
 </body>
 </html>
