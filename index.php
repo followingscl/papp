@@ -16,7 +16,7 @@
 
 		    <div class="row text-center tasks" style="">
 					<div class="col-sm-4 col-xs-4">
-						<a href="tasks.php">
+						<a href="task.php">
 							<i class="ace-icon fa fa-list green"></i>
 							<!-- <img src="assets/img/email.png" alt=""> -->
 							
