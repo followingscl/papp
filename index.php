@@ -1,98 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta name="description" content="User login page" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-	<title>互联网安全平台</title>
-		<link rel="stylesheet" href="assets/css/other.css">
+<?php include 'template/header.php' ?>
+		<a class="back">
+			<i class="glyphicon glyphicon-user"></i>
+		</a>
+		<div class="title">互联网安全平台</div>
+		</div>
+	</div>
 
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="assets/css/ace.min.css" />
-</head>
-<body>
-<div id="navbar" class="navbar navbar-default navbar-fixed-top">
-			<div class="navbar-container" id="navbar-container">
-			<a class="back">
-				<i class="glyphicon glyphicon-user"></i>
-			</a>
-			<div class="title">互联网安全平台</div>
-			<!-- <a class="back pull-right" style="">
-				<i class="glyphicon glyphicon-remove-sign"></i>
-			</a> -->
-			</div>
-		</div>
-	<div class="main-container" style="padding-top: 0">
-		<div class="main-container-inner">
-    	<img src="assets/img/home.jpg" width="100%" class="home_img" style="vertical-align: middle; height: auto;">
-    </div>
-		<!-- <div class="row text-center" style="margin: 0;height: 30px;padding-top: 10px">
-			<div class="col-sm-4 col-xs-4">
-				<i class="glyphicon glyphicon-list-alt red"></i>
-				任务中心
-			</div>
-			<div class="col-sm-4 col-xs-4">
-				<i class="glyphicon glyphicon-list-alt red"></i>
-				消息发布
-			</div>
-			<div class="col-sm-4 col-xs-4">
-				<i class="glyphicon glyphicon-list-alt red"></i>
-				预警
-			</div>
-		</div> -->
-		<div class="row" style="margin-top: 20px">
-			<div class="col-xs-6 text-center">
-				<img src="assets/img/2.png" alt="">
-				<div>1</div>
-			</div>
-			<div class="col-xs-6 text-center">
-				<img src="assets/img/2.png" alt="">
-				<div>1</div>
-			</div>
-		</div>
-		<div class="row" style="margin-top: 20px">
-			<div class="col-xs-6 text-center">
-				<img src="assets/img/2.png" alt="">
-				<div>1</div>
-			</div>
-			<div class="col-xs-6 text-center">
-				<img src="assets/img/2.png" alt="">
-				<div>1</div>
+	<div id="wrapper">
+		<div id="scroller">
+
+			<div class="main-container index" style="padding-top: 0;background: #F4F4F4;">
+				<div class="main-container-inner">
+				<div id="allmap" style="height: 260px;"></div>
+		    </div>
+
+		    <div class="row text-center tasks" style="">
+					<div class="col-sm-4 col-xs-4">
+						<a href="">
+							<i class="ace-icon fa fa-list green"></i>
+							<!-- <img src="assets/img/email.png" alt=""> -->
+							
+							<span>任务中心</span>
+						</a>
+					</div>
+					<div class="col-sm-4 col-xs-4">
+						<a href="">
+							<i class="ace-icon fa fa-envelope-o orange"></i>
+							<!-- <img src="assets/img/email.png" alt=""> -->
+							
+							<span>消息发布</span>
+						</a>
+					</div>
+					<div class="col-sm-4 col-xs-4">
+						<a href="">
+							<i class="ace-icon fa fa-exclamation-circle red"></i>
+							<!-- <img src="assets/img/email.png" alt=""> -->
+							
+							<span>预警</span>
+						</a>
+					</div>
+				</div>
+				
+				<div class="row" style="padding: 23px 0;background: #fff;border-top: 1px solid #cdcdcd;">
+					<div class="col-xs-6 text-center syinner">
+						<div class="index_icon" style="background: #3E9EE0">
+							<i class="ace-icon fa fa-book white" style="font-size: 2em"></i>
+						</div>
+						<!-- <img src="assets/img/2.png" alt=""> -->
+						<div class="icon-text">可视化</div>
+					</div>
+					<div class="col-xs-6 text-center syinner">
+						<div class="index_icon" style="background: #F67C3C">
+							<i class="ace-icon fa fa-star white" style="font-size: 2em"></i>
+						</div>
+						<!-- <img src="assets/img/2.png" alt=""> -->
+						<div class="icon-text">打分检查</div>
+					</div>
+				</div>
+				<div class="row" style="padding-bottom: 23px;background: #fff;border-bottom: 1px solid #cdcdcd;">
+					<div class="col-xs-6 text-center syinner">
+						<div class="index_icon" style="background: #F36464">
+							<i class="ace-icon fa fa-calendar white" style="font-size: 2em"></i>
+						</div>
+						<!-- <img src="assets/img/2.png" alt=""> -->
+						<div class="icon-text">整改进度</div>
+					</div>
+					<div class="col-xs-6 text-center syinner">
+						<div class="index_icon" style="background: #16C3BC">
+							<i class="ace-icon fa fa-desktop white" style="font-size: 2em"></i>
+						</div>
+						<!-- <img src="assets/img/2.png" alt=""> -->
+						<div class="icon-text">曝光台</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
-	<div class="footer">
-			<div class="footer-inner">
-				<div class="footer-content">
-					<ul>
-						<li class="light-red">
-							<a href="note.php" class="shouye">
-								<i class="glyphicon glyphicon-home"></i>
-								<div>工作笔记</div>
-							</a>
-						</li>
-						<li class="grey">
-							<a href="exchange.php" class="weianqi">
-								<i class="glyphicon glyphicon-time"></i>
-								<div>经验交流</div>
-							</a>
-						</li>
-						<li class="grey">
-							<a href="query.php" class="chaxun">
-								<i class="glyphicon glyphicon-search"></i>
-								<div>110</div>
-							</a>
-						</li>
-						<li class="light-blue">
-							<a href="more.php" class="more">
-								<i class="glyphicon glyphicon-user"></i>
-								<div>视频监控</div>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
+
+	<?php 
+		include 'template/footer.php'
+	?>
+	<script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&ak=piXQ5CgHFqEefqCVbhhBFfe6HjF7l4zW"></script>
+	<script type="text/javascript">
+		var map = new BMap.Map("allmap");    // 创建Map实例
+		map.centerAndZoom(new BMap.Point(118.27549, 33.96193), 11);  // 初始化地图,设置中心点坐标和地图级别
+		map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+		map.setCurrentCity("江苏省");          // 设置地图显示的城市 此项是必须设置的
+		map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+	</script>
 </body>
 </html>
