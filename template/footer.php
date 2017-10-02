@@ -36,11 +36,11 @@
 			$(function(){
 				$('#wrapper a').hammer().on("tap pan",function(){
 					// alert('d');
-					// if ($(this).attr('href') && $(this).attr('href') != '#') {
+					if ($(this).attr('href') && $(this).attr('href') != '#') {
 						window.location = $(this).attr('href');
-					// } else {
-						// $(this).click()
-					// }
+					} else {
+						$(this).click()
+					}
 							
 					// window.location = $(this).attr('href')
 				});
