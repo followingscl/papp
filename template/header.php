@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="assets/css/ace.min.css" />
 	<link rel="stylesheet" href="assets/css/other.css">
+	<link rel="stylesheet" href="assets/css/loading.css">
 	
 	<script type="text/javascript" src="assets/js/iscroll.js"></script>
 	<script type="text/javascript" src="assets/js/hammer.min.js"></script>
@@ -19,7 +20,7 @@
 		function loaded () {
 			myScroll = new IScroll('#wrapper', { mouseWheel: true });
 			$('#loader-wrapper .load_title').remove();
-				$('#main-container').css('opacity','1');
+				$('.main-container').css('opacity','1');
 
 		}
 		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
@@ -36,7 +37,7 @@
 				  <div class="rect4"></div>
 				  <div class="rect5"></div>
 				</div>
-				加载中...
+				<!-- 加载中... -->
 	    </div>
 		</div>
 	<div id="navbar" class="navbar navbar-default navbar-fixed-top">

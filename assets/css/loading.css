@@ -1,3 +1,6 @@
+.main-container {
+  opacity: 0;
+}
 .spinner {
   margin: auto;
   width: 50px;
@@ -8,7 +11,8 @@
 .spinner > div {
   background-color: #2EC7C9;
   height: 100%;
-  width: 6px;
+  width: 4px;
+  border-radius: 6px/10px;
   display: inline-block;
   -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
   animation: stretchdelay 1.2s infinite ease-in-out;
