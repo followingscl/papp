@@ -7,7 +7,7 @@
 					for(var i = 0;i < ass.length;i ++){
 						if(ass[i].getAttribute('class') == 'back'){
 							var hammertime = new Hammer(ass[i]);
-		          hammertime.on("tap", function (ev) {
+		          hammertime.on("tap pan", function (ev) {
 		              	window.history.go(-1);
 		          });
 						}
