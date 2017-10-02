@@ -34,9 +34,14 @@
 	<script src="assets/js/jquery.hammer.js" type="text/javascript"></script>
 		<script type="text/javascript">
 			$(function(){
-				$('#wrapper a').hammer().on("tap",function(){
+				$('#wrapper a').hammer().on("tap pan",function(){
 					// alert('d');
-					$(this).click();
+					// if ($(this).attr('href') && $(this).attr('href') != '#') {
+						window.location = $(this).attr('href');
+					// } else {
+						// $(this).click()
+					// }
+							
 					// window.location = $(this).attr('href')
 				});
 			});
