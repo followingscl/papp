@@ -37,7 +37,7 @@
 				$('#wrapper a').not('.notap').hammer().on("tap pan",function(){
 						window.location = $(this).attr('href');
 				});
-				$('#wrapper a.notap').hammer().on("tap pan",function(){
+				$('.notap').hammer().on("tap pan",function(){
 						$(this).click();
 				});
 			});

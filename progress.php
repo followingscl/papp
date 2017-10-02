@@ -29,14 +29,14 @@
 						<div class="tabbable">
 							<ul class="nav nav-tabs" id="myTab">
 								<li class="active">
-									<a data-toggle="tab" href="#home">
+									<a class="notap" data-toggle="tab" href="#home">
 										<!-- <i class="green ace-icon fa fa-home bigger-120"></i> -->
 										未完成
 									</a>
 								</li>
 
 								<li>
-									<a data-toggle="tab" href="#messages">
+									<a class="notap" data-toggle="tab" href="#messages">
 										已完成
 									</a>
 								</li>
