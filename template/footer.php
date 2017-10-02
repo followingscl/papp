@@ -36,7 +36,8 @@
 			$(function(){
 				$('#wrapper a').hammer().on("tap",function(){
 					// alert('d');
-					$(this).click();
+					// $(this).click();
+					window.location = this.attr('href')
 				});
 			});
 		</script>
