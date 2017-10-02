@@ -37,7 +37,7 @@
 				$('#wrapper a').hammer().on("tap",function(){
 					// alert('d');
 					// $(this).click();
-					window.location = this.attr('href')
+					window.location = $(this).attr('href')
 				});
 			});
 		</script>
