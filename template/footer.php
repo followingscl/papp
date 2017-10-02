@@ -30,3 +30,4 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript" src="assets/js/jquery.1.11.1.min.js"></script>

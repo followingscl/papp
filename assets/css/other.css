@@ -24,6 +24,9 @@ html {
 	width: 30px;
 	position: absolute;
 }
+.main-container {
+	margin-top: 44px;
+}
 
 #wrapper {
 	position: absolute;
@@ -172,4 +175,20 @@ html {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.pro .nav-tabs {
+	width: 100%;
+}
+.pro .nav-tabs>li {
+	width: 50%;
+}
+.pro .table>tbody>tr>td {
+	border-top: 0
+}
+.pro#wrapper {
+	background: #fff;
+}
+.pro .tab-content {
+	border: 0;
 }

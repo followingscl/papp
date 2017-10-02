@@ -11,7 +11,7 @@
 
 			<div class="main-container index" style="padding-top: 0;background: #F4F4F4;">
 				<div class="main-container-inner">
-					<div id="allmap" style="height: 260px;"></div>
+					<div id="allmap" style="height: 220px;"></div>
 		    </div>
 
 		    <div class="row text-center tasks" style="">
@@ -24,7 +24,7 @@
 						</a>
 					</div>
 					<div class="col-sm-4 col-xs-4">
-						<a href="">
+						<a href="send.php">
 							<i class="ace-icon fa fa-envelope-o orange"></i>
 							<!-- <img src="assets/img/email.png" alt=""> -->
 							
@@ -32,7 +32,7 @@
 						</a>
 					</div>
 					<div class="col-sm-4 col-xs-4">
-						<a href="">
+						<a href="warning.php">
 							<i class="ace-icon fa fa-exclamation-circle red"></i>
 							<!-- <img src="assets/img/email.png" alt=""> -->
 							
@@ -43,25 +43,31 @@
 				
 				<div class="row" style="padding: 23px 0;background: #fff;border-top: 1px solid #cdcdcd;">
 					<div class="col-xs-6 text-center syinner">
-						<div class="index_icon" style="background: #3E9EE0">
-							<i class="ace-icon fa fa-book white" style="font-size: 2em"></i>
-						</div>
+						<a href="virtual.php">
+							<div class="index_icon" style="background: #3E9EE0">
+								<i class="ace-icon fa fa-book white" style="font-size: 2em"></i>
+							</div>
+						</a>
 						<!-- <img src="assets/img/2.png" alt=""> -->
 						<div class="icon-text">可视化</div>
 					</div>
 					<div class="col-xs-6 text-center syinner">
-						<div class="index_icon" style="background: #F67C3C">
-							<i class="ace-icon fa fa-star white" style="font-size: 2em"></i>
-						</div>
+						<a href="grade.php">
+							<div class="index_icon" style="background: #F67C3C">
+								<i class="ace-icon fa fa-star white" style="font-size: 2em"></i>
+							</div>
+						</a>
 						<!-- <img src="assets/img/2.png" alt=""> -->
 						<div class="icon-text">打分检查</div>
 					</div>
 				</div>
 				<div class="row" style="padding-bottom: 23px;background: #fff;border-bottom: 1px solid #cdcdcd;">
 					<div class="col-xs-6 text-center syinner">
-						<div class="index_icon" style="background: #F36464">
-							<i class="ace-icon fa fa-calendar white" style="font-size: 2em"></i>
-						</div>
+						<a href="progress.php">
+							<div class="index_icon" style="background: #F36464">
+								<i class="ace-icon fa fa-calendar white" style="font-size: 2em"></i>
+							</div>
+						</a>
 						<!-- <img src="assets/img/2.png" alt=""> -->
 						<div class="icon-text">整改进度</div>
 					</div>
