@@ -31,3 +31,12 @@
 		</div>
 	</div>
 	<script type="text/javascript" src="assets/js/jquery.1.11.1.min.js"></script>
+	<script src="assets/js/jquery.hammer.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('#wrapper a').hammer().on("tap",function(){
+					// alert('d');
+					$(this).click();
+				});
+			});
+		</script>
