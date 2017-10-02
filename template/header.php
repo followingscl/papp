@@ -18,12 +18,26 @@
 		var myScroll;
 		function loaded () {
 			myScroll = new IScroll('#wrapper', { mouseWheel: true });
+			$('#loader-wrapper .load_title').remove();
+				$('#main-container').css('opacity','1');
+
 		}
 		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 	</script>
 
 </head>
 <body class="no-skin" onload="loaded()">
-
+	<div id="loader-wrapper">
+	    <div class="load_title">
+				<div class="spinner">
+				  <div class="rect1"></div>
+				  <div class="rect2"></div>
+				  <div class="rect3"></div>
+				  <div class="rect4"></div>
+				  <div class="rect5"></div>
+				</div>
+				加载中...
+	    </div>
+		</div>
 	<div id="navbar" class="navbar navbar-default navbar-fixed-top">
 		<div class="navbar-container" id="navbar-container">
