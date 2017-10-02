@@ -34,13 +34,13 @@
 	<script src="assets/js/jquery.hammer.js" type="text/javascript"></script>
 		<script type="text/javascript">
 			$(function(){
-				$('#wrapper a').hammer().on("tap pan",function(){
+				$('#wrapper a').not('.notap').hammer().on("tap pan",function(){
 					// alert('d');
-					if ($(this).attr('href') && $(this).attr('href') != '#') {
+					// if ($(this).attr('href') && $(this).attr('href') != '#') {
 						window.location = $(this).attr('href');
-					} else {
-						$(this).click()
-					}
+					// } else {
+						// $(this).click()
+					// }
 							
 					// window.location = $(this).attr('href')
 				});
