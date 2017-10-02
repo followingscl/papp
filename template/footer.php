@@ -35,14 +35,10 @@
 		<script type="text/javascript">
 			$(function(){
 				$('#wrapper a').not('.notap').hammer().on("tap pan",function(){
-					// alert('d');
-					// if ($(this).attr('href') && $(this).attr('href') != '#') {
 						window.location = $(this).attr('href');
-					// } else {
-						// $(this).click()
-					// }
-							
-					// window.location = $(this).attr('href')
+				});
+				$('#wrapper a.notap').hammer().on("tap pan",function(){
+						$(this).click();
 				});
 			});
 		</script>
