@@ -129,7 +129,13 @@
 		<script src="assets/js/bootstrap.min.js"></script>
 
 	<script type="text/javascript">
-		
-	</script>
+			$(function(){
+				$('#wrapper a').hammer().on("tap",function(){
+					// alert('d');
+					$(this).click();
+					// window.location = $(this).attr('href')
+				});
+			});
+		</script>
 </body>
 </html>
