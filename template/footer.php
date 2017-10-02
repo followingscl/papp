@@ -35,7 +35,7 @@
 		<script type="text/javascript">
 			$(function(){
 				$('#wrapper a').hammer().on("tap",function(){
-					// alert('d');
+					alert('d');
 					$(this).click();
 				});
 			});
