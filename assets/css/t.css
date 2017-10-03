@@ -1,0 +1,27 @@
+.task .main-container, .warning .main-container, .mes .main-container {
+	background: #f2f2f2;
+}
+.task ul, .warning ul, .mes ul {
+	background: #f2f2f2;
+	margin-top: 9px;
+}
+.task ul li, .warning ul li, .mes ul li {
+	padding: 1px 12px;
+	margin-top: 0;
+	background: #fff;
+}
+.task ul li i{
+	font-size: 1.4em;
+	margin-top: 10px;
+	color: #ccc;
+}
+
+
+.warning ul li, .mes ul li {
+	padding: 20px;
+	padding-bottom: 30px;
+  width: 92%;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+

@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="assets/css/ace.min.css" />
 	<link rel="stylesheet" href="assets/css/other.css">
+	<link rel="stylesheet" href="assets/css/t.css">
 	<link rel="stylesheet" href="assets/css/loading.css">
 	
 	<script type="text/javascript" src="assets/js/iscroll.js"></script>
