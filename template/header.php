@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="assets/css/other.css">
 	<link rel="stylesheet" href="assets/css/t.css">
 	<link rel="stylesheet" href="assets/css/loading.css">
+	<link rel="stylesheet" href="assets/css/try.css">
 	
 	<script type="text/javascript" src="assets/js/iscroll.js"></script>
 	<script type="text/javascript" src="assets/js/hammer.min.js"></script>

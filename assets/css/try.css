@@ -1,0 +1,33 @@
+#try-ul{
+	text-align:left;
+	margin:0;
+	padding: 10px;
+}
+#try-list{
+	list-style: none;
+	margin:3px;
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 1px solid #d7d6d6;
+	color: black;
+	font-size:13px;
+	overflow: hidden;
+}
+#try-time{
+	float: right;
+	color: #6b6b6b;
+}
+#try-span{
+	float: right;
+	display: table-cell;
+	vertical-align: middle;
+}
+#try-span img{
+	height: 17px;
+	width: 17px;
+	vertical-align: middle;
+}
+#try-mark{
+	color: #6b6b6b;
+	background-color: #fff;
+}
