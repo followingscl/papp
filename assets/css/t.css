@@ -1,0 +1,17 @@
+.task .main-container {
+	background: #f2f2f2;
+}
+.task ul {
+	background: #f2f2f2;
+	margin-top: 9px;
+}
+.task ul li {
+	padding: 1px 12px;
+	margin-top: 0;
+	background: #fff;
+}
+.task ul li i{
+	font-size: 1.4em;
+	margin-top: 10px;
+	color: #ccc;
+}
