@@ -17,31 +17,28 @@
 				padding-top: 3%;padding-right: 3%;position: relative;">
 				  <img src="assets/img/edit.png" style="width: 2rem;vertical-align: middle;">
 				</a>
-			<div class="title">警报</div>
+			<div class="title">消息发布</div>
 			</div>
   </div>
 	
-	<div id="wrapper" class="warning">
+	<div id="wrapper" class="mes">
 		<div id="scroller">
-			<div class="main-container">
-				<!-- <div class="page-content"> -->
-
-				 	<div class="row">
-						<div class="col-xs-12">
-							<ul class="list-unstyled spaced">
-								<li>
-									<p>某手机卖场公司上旬检查出，可隐患仍未修改，请在8月15日前完成整改</p>
-									<span class="pull-right">2017.08.13</span>
-								</li>
-								<li>
-									<p>某手机卖场公司上旬检查出，可隐患仍未修改，请在8月15日前完成整改某手机卖场公司上旬检查出，可隐患仍未修改，请在8月15日前完成整改</p>
-									<span class="pull-right">2017.08.13</span>
-								</li>
-								
-							</ul>
-						</div>
+		 	<div class="main-container">
+		 		<div class="row">
+					<div class="col-xs-12">
+						<ul class="list-unstyled spaced">
+							<li>
+								<p>某手机卖场公司上旬检查出，可隐患仍未修改，请在8月15日前完成整改</p>
+								<span class="pull-right">2017.08.13</span>
+							</li>
+							<li>
+								<p>某手机卖场公司上旬检查出，可隐患仍未修改，请在8月15日前完成整改某手机卖场公司上旬检查出，可隐患仍未修改，请在8月15日前完成整改</p>
+								<span class="pull-right">2017.08.13</span>
+							</li>
+							
+						</ul>
 					</div>
-				<!-- </div> -->
+				</div>
 			</div>
 		</div>
 	</div>

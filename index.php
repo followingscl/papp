@@ -23,7 +23,7 @@
 						</a>
 					</div>
 					<div class="col-sm-4 col-xs-4">
-						<a href="send.php">
+						<a href="mes.php">
 							<i class="ace-icon fa fa-envelope-o orange"></i>
 							<!-- <img src="assets/img/email.png" alt=""> -->
 							<span>消息发布</span>
