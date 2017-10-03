@@ -23,7 +23,7 @@
 	
 	<div id="wrapper">
 		<div id="scroller">
-		 	测试
+		 	测试fetch
 		</div>
 	</div>
 
