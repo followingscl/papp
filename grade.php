@@ -59,16 +59,21 @@
 									<div class="row">
 										<div class="col-xs-12">
 											<table class="table table-hover">
-												<div class="col-sm-6 col-xs-6">
+												<div class="col-sm-6 col-xs-6" style="padding-left: 0;">
 															<!-- <label for="form-field-select-1"></label> -->
-
 															<select class="form-control" id="form-field-select-1">
 																<option value="">受检公司</option>
 																<option value="AL">1</option>
 																<option value="AK">1</option>
 																<option value="AZ">1</option>
-															
-															
+															</select>
+															</div>
+															<div class="col-sm-6 col-xs-6" style="padding-left: 0;">
+															<select class="form-control" id="form-field-select-1">
+																<option value="">楼宇名称</option>
+																<option value="AL">1</option>
+																<option value="AK">1</option>
+																<option value="AZ">1</option>
 															</select>
 													</div>
 												<tbody>
