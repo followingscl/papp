@@ -17,7 +17,7 @@
 				padding-top: 3%;padding-right: 3%;position: relative;">
 				  <img src="assets/img/edit.png" style="width: 2rem;vertical-align: middle;">
 				</a>
-			<div class="title">110</div>
+			<div class="title">可视化</div>
 			</div>
   </div>
 	

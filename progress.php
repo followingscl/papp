@@ -25,7 +25,7 @@
 		<div id="scroller">
 		 	<div class="main-container">
 		 		<div class="row">
-					<div class="col-sm-6">
+					<div class="col-sm-12">
 						<div class="tabbable">
 							<ul class="nav nav-tabs" id="myTab">
 								<li class="active">
