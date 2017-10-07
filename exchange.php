@@ -20,23 +20,17 @@
 			<div class="title">经验交流</div>
 		</div>
   </div>
-  <div id="wrapper">
+  <div id="wrapper" style="background-color: #fff;">
 		<div id="scroller">
 		  <div id="main-container" clss="main-container" style="padding-top: 70px; padding-left: 10px; padding-right: 10px;">
-		    <table class="table">
-		      <tr>
-		      	<td style="border: 0;">如何让营业员快速掌握"三要两会"口号</td>
-		      	<td style="border: 0;"></td>
-		      </tr>
-		      <tr>
-		      	<td style="border: 0;"></td>
-		      	<td style="text-align: right;border: none;">2017.8.6</td>
-		      </tr>
-		      <tr>
-		      	<td style="border: 0; padding-left: 50px;"><a style="text-decoration: none; color: rgb(156,209,247);">回复</a><button style="background-color: rgb(156,209,247); color: rgb(255,255,255); border: 1px solid #e0e0e0; float: right;">分享</button></td>
-		      	<td style="border: 0;"></td>
-		      </tr>
-		    </table>
+		    <div>
+				<h5 style="margin: 5px;">如何让营业员快速掌握“三要两会”口号</h4>
+				<time  style="float:right;margin: 5px;">2017/8/6</time><br>
+				<div style="margin:10px;">
+					<button style="background-color: #fff; color: rgb(156,209,247); border-style:none;height: 28px;width:63px;text-align:center;margin:5px 40px;float: left;">回复<img src="assets/img/reply.png" style="height: 25px;width: 25px;"></button>
+					<button style="background-color: rgb(156,209,247); color: #fff; border: 1px solid #e0e0e0; border-radius:4px;height: 28px;width:63px;text-align:center;margin:5px 40px;float:right;">分享<img src="assets/img/share.png" style="height: 20px;width: 20px;"></button>
+				</div>
+		    </div>
 		  </div>
 		</div>
 	</div>
