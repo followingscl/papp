@@ -208,3 +208,7 @@ html {
 	border: 0;
 	border-bottom: 1px solid transparent;
 }
+.divtable table tr td
+{
+	border: 0;
+}

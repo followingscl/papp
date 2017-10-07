@@ -13,17 +13,28 @@
 						}
 					}
 				</script>
-				<a class="edit" style="float: right;
-				padding-top: 3%;padding-right: 3%;position: relative;">
-				  <img src="assets/img/edit.png" style="width: 2rem;vertical-align: middle;">
-				</a>
 			<div class="title">110</div>
 			</div>
   </div>
 	
 	<div id="wrapper">
 		<div id="scroller">
-		 	测试fetch
+		 	<div class="main-container">
+		 	   <div class="divtable">
+		 	    <table class="table">
+		 	    	<tr>
+		 	    	  <td>单位:</td>
+		 	    	  <td>宿城果园手机卖场</td>
+		 	    	  <td>2017.08.10</td>
+		 	    	  <td>09:37</td>
+		 	    	</tr>
+		 	    	<tr>
+		 	    	  <td>类型:</td>
+		 	    	  <td>消防安全</td>
+		 	    	</tr>
+		 	    </table>
+		 	   </div>
+		 	</div>
 		</div>
 	</div>
 
