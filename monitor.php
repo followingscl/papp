@@ -13,17 +13,50 @@
 						}
 					}
 				</script>
-				<a class="edit" style="float: right;
-				padding-top: 3%;padding-right: 3%;position: relative;">
-				  <img src="assets/img/edit.png" style="width: 2rem;vertical-align: middle;">
-				</a>
-			<div class="title">互联网安全平台</div>
+			<div class="title">视频监控</div>
 			</div>
   </div>
 
  	<div id="wrapper">
 		<div id="scroller">
-		 	测试fetch
+		 	<div class="main-container">
+		 	<div class="row">
+			  <div class="col-xs-3">
+			    <img src="">
+			  </div>
+			  <div class="col-xs-6">
+			    <p style="margin-top: 5%;">宿城果园手机卖场</p>
+			    <p class="glyphicon glyphicon-user" style="color: rgb(156, 209, 247);">(在线)</p>
+			  </div>
+			  <div class="col-xs-3">
+			   <p class="glyphicon glyphicon-lock" style="color: rgb(68,68,68); margin-top: 25%;"></p>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col-xs-3">
+			    <img src="">
+			  </div>
+			  <div class="col-xs-6">
+			    <p style="margin-top: 5%;">宿城区南海路旗舰店</p>
+			    <p class="glyphicon glyphicon-user" style="color: rgb(156, 209, 247);">(在线)</p>
+			  </div>
+			  <div class="col-xs-3">
+			   <p class="glyphicon glyphicon-lock" style="color: rgb(68,68,68); margin-top: 25%;"></p>
+			  </div>
+		    </div>
+		    <div class="row">
+			  <div class="col-xs-3">
+			    <img src="">
+			  </div>
+			  <div class="col-xs-6">
+			    <p style="margin-top: 5%;">宿城黄运路手机卖场</p>
+			    <p class="glyphicon glyphicon-user" style="color: rgb(156, 209, 247);">(在线)</p>
+			  </div>
+			  <div class="col-xs-3">
+			   <p class="glyphicon glyphicon-plus" style="color: rgb(139,195,74); margin-top: 25%;"></p>
+			  </div>
+			</div>
+			</div>
 		</div>
 	</div>
   <?php 
