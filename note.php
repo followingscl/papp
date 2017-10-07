@@ -23,7 +23,8 @@
 	
 	<div id="wrapper">
 		<div id="scroller">
-		  <div id="main-container" clss="main-container" style="padding-top: 40px;">
+		  <div id="main-container" clss="main-container" style="margin-top: 40px;">
+		  
 		  <table class="table">
 		    <tr>
 		      <td style="border: 0;">沐阳公司8月5日工作笔记</td>

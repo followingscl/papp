@@ -16,7 +16,7 @@
   <div id="wrapper">
 		<div id="scroller">
 		  <div id="main-container" clss="main-container" style="padding-top: 70px; padding-left: 10px; padding-right: 10px;">
-		    
+		  
 		  </div>
 		</div>
 	</div>

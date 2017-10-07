@@ -13,17 +13,28 @@
 						}
 					}
 				</script>
-				<a class="edit" style="float: right;
-				padding-top: 3%;padding-right: 3%;position: relative;">
-				  <img src="assets/img/edit.png" style="width: 2rem;vertical-align: middle;">
-				</a>
 			<div class="title">可视化</div>
 			</div>
   </div>
 	
 	<div id="wrapper">
 		<div id="scroller">
-		 
+		   <div class="main-container">
+		     <ul class="list-group">
+		       <li class="list-group-item" onclick="javascript:window.location.href='csoft.php'">
+               综合楼安全
+		       </li>
+		       <li class="list-group-item" onclick="javascript:window.location.href='ssoft.php'">
+		       营业厅安全
+		       </li>
+		       <li class="list-group-item" onclick="javascript:window.location.href='esoft.php'">
+		       通信基站安全
+		       </li>
+		       <li class="list-group-item" onclick="javascript:window.location.href='psoft.php'">
+		       工程建设安全
+		       </li>
+		     </ul>
+		   </div>
 		</div>
 	</div>
 
