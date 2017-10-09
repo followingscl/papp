@@ -63,7 +63,7 @@
 						<div class="icon-text">整改进度</div>
 					</div>
 					<div class="col-xs-6 text-center syinner">
-						<a class="index_icon" href="notin.php" style="background: #16C3BC">
+						<a class="index_icon" href="try.php" style="background: #16C3BC">
 							<i class="ace-icon fa fa-desktop white" style="font-size: 2em"></i>
 							<!-- </div> -->
 						</a>
