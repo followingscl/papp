@@ -13,10 +13,7 @@
             }
           }
         </script>
-        <a class="edit" style="float: right;
-        padding-top: 3%;padding-right: 3%;position: relative;">
-          <img src="assets/img/edit.png" style="width: 2rem;vertical-align: middle;">
-        </a>
+        
       <div class="title">大额现金未入柜</div>
     </div>
   </div>

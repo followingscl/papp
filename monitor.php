@@ -8,7 +8,13 @@
 						if(ass[i].getAttribute('class') == 'back'){
 							var hammertime = new Hammer(ass[i]);
 		          hammertime.on("tap", function (ev) {
-		              	window.history.go(-1);
+		              	// window.history.go(-1);
+		              	window.location = 'index.php'
+		          });
+						} else if (ass[i].getAttribute('class') == 'edit') {
+							var hammertime = new Hammer(ass[i]);
+		          hammertime.on("tap", function (ev) {
+              	window.location = 'announce.php'
 		          });
 						}
 					}
