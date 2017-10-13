@@ -40,9 +40,14 @@
 		  </div>
 		</div>
 	</div>
+	<style type="text/css">
+		.shouye{
+			color: #6cc4f1 !important;
+		}
+	</style>
 
 
-  <?php 
+	<?php 
 		include 'template/footer.php'
 	?>
 </body>

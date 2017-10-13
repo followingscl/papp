@@ -65,7 +65,12 @@
 			</div>
 		</div>
 	</div>
-  <?php 
+	<style type="text/css">
+		.more{
+			color: #6cc4f1 !important;
+		}
+	</style>
+	<?php 
 		include 'template/footer.php'
 	?>
 </body>
