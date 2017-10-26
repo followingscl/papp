@@ -26,6 +26,7 @@ html {
 }
 .main-container {
 	margin-top: 44px;
+	margin-bottom: 140px;
 }
 
 #wrapper {
@@ -58,6 +59,7 @@ html {
 	-ms-text-size-adjust: none;
 	-o-text-size-adjust: none;
 	text-size-adjust: none;
+	margin-bottom: 100px;
 }
 
 .footer-content ul li {
@@ -211,4 +213,68 @@ html {
 .divtable table tr td
 {
 	border: 0;
+}
+
+.task .main-container, .warning .main-container, .mes .main-container {
+	background: #f2f2f2;
+}
+.task ul, .warning ul, .mes ul {
+	background: #f2f2f2;
+	margin-top: 9px;
+}
+.task ul li, .warning ul li, .mes ul li {
+	padding: 1px 12px;
+	margin-top: 0;
+	background: #fff;
+}
+.task ul li i{
+	font-size: 1.4em;
+	margin-top: 10px;
+	color: #ccc;
+}
+
+
+.warning ul li, .mes ul li {
+	padding: 20px;
+	padding-bottom: 30px;
+  width: 92%;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.grade .nav-tabs {
+	width: 100%;
+	border: 0;
+}
+.grade .nav-tabs>li {
+	width: 25%;
+	text-align: center;
+}
+.grade .table>tbody>tr>td {
+	border-top: 0
+}
+.grade#wrapper {
+	background: #fff;
+}
+.grade .tab-content {
+	border: 0;
+}
+.grade.nav-tabs>li>a, .nav-tabs>li>a:focus {
+	background: #fff;
+}
+.grade .nav-tabs>li.active>a {
+	border: 0;
+	box-shadow: none;
+	border-bottom: 2px solid;
+
+	border-color: #0090ff;
+
+}
+.grade .nav-tabs>li>a {
+	border: 0;
+	border-bottom: 1px solid transparent;
+}
+.grade .table>thead>tr {
+	background: none;
+	background-image: none;
 }

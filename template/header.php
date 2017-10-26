@@ -5,13 +5,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="description" content="User login page" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<meta http-equiv="Pragma" content="no-cache">
 	<title>互联网安全平台</title>
 
 	<link rel="stylesheet" href="assets/font-awesome/4.2.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="assets/css/ace.min.css" />
 	<link rel="stylesheet" href="assets/css/other.css">
-	<link rel="stylesheet" href="assets/css/t.css">
 	<link rel="stylesheet" href="assets/css/loading.css">
 	<link rel="stylesheet" href="assets/css/try.css">
 	
@@ -22,10 +22,11 @@
 		function loaded () {
 			myScroll = new IScroll('#wrapper', { mouseWheel: true });
 			$('#loader-wrapper .load_title').remove();
-				$('.main-container').css('opacity','1');
+			$('.main-container').css('opacity','1');
 
 		}
-		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, { passive: false });
+		// window.addEventListener('touchmove', func, )
 	</script>
 
 </head>
