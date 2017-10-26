@@ -23,7 +23,7 @@
 		<link rel="stylesheet" href="assets/font-awesome/4.2.0/css/font-awesome.min.css" />
 
 		<link rel="stylesheet" href="assets/css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
-	
+
 	<script type="text/javascript">
 		var myScroll;
 		function loaded () {
@@ -33,6 +33,7 @@
 
 		}
 		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, { passive: false });
+		
 		// window.addEventListener('touchmove', func, )
 	</script>
 

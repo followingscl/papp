@@ -32,10 +32,17 @@
 	</div>
 	<!-- <script type="text/javascript" src="assets/js/jquery.1.11.1.min.js"></script> -->
 	<script type="text/javascript" src="assets/js/jquery.2.1.1.min.js"></script>
-	
+
 	<script src="assets/js/jquery.hammer.js" type="text/javascript"></script>
 		<script type="text/javascript">
 			$(function(){
+				$('#wrapper').on('tap click pan', function() {
+					// console.log($('.form-control:focus'))
+					$('.form-control:focus')?$('.form-control:focus').blur():''
+				})
+				$('.form-control').on('tap click pan', function(e) {
+					e.stopPropagation()
+				})
 				$('#wrapper a').not('.notap').hammer().on("tap pan",function(){
 						window.location = $(this).attr('href');
 				});
