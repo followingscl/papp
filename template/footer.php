@@ -36,6 +36,8 @@
 	<script src="assets/js/jquery.hammer.js" type="text/javascript"></script>
 		<script type="text/javascript">
 			$(function(){
+				var height = $('#wrapper').height()
+				 $('.person').val($('#wrapper').height())
 				$('.main-container, body, #srcoller, #wrapper, table, .form-group').on('tap click pan', function() {
 					// console.log($('.form-control:focus'))
 					// alert('refre')
@@ -48,9 +50,11 @@
 					$('.footer').hide();
 				})
 				$(window).resize(function(event) {
+					$('#wrapper').height(height)
+					// $('.person').val($(window).height() + '' + $('html').height() + '' + $('#wrapper').clientTop)
 					// alert('df')
 					// myScroll.refresh();
-					alert($(window).height(), $(html).height(), $(#wrapper).height())
+					// alert($(window).height(), $('html').height(), $('#wrapper').height())
 				});
 				$('.form-control').on('tap click pan', function(e) {
 					e.stopPropagation()

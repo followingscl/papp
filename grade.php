@@ -53,6 +53,7 @@
 							</ul>
 
 							<div class="tab-content">
+							<span class="test"></span>
 								<div id="building" class="tab-pane fade in active">
 									<div class="row">
 										<div class="col-xs-12">
@@ -137,7 +138,7 @@
 											<div class="form-group">
 												<label class="col-xs-3 control-label no-padding-right" for="form-field-6">受检人</label>
 												<div class="col-xs-9">
-													<input class="form-control" data-rel="tooltip" type="text" id="form-field-6" placeholder="受检人" title="Hello Tooltip!" data-placement="bottom" />
+													<input class="form-control person" data-rel="tooltip" type="text" id="form-field-6" placeholder="受检人" title="Hello Tooltip!" data-placement="bottom" />
 												</div>
 											</div>
 											<div class="form-group">
