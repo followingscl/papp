@@ -80,7 +80,7 @@
 														<option value="AZ">1</option>
 													</select>
 												</div>
-												<table class="table table-hover">
+												<table class="table table-hover" style="margin-top: 40px;">
 													<thead>
 														<tr>
 															<td >检查内容及标准</td>
@@ -156,6 +156,12 @@
 												<label class="col-xs-3 control-label no-padding-right" for="form-field-6">月日</label>
 												<div class="col-xs-9">
 													<input class="form-control" data-rel="tooltip" type="text" id="form-field-6" placeholder="月日" title="Hello Tooltip!" data-placement="bottom" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-xs-3 control-label no-padding-right" for="form-field-6"></label>
+												<div class="col-xs-9">
+													<button class="btn btn-info">提交</button>
 												</div>
 											</div>
 										</form>
@@ -269,7 +275,7 @@
 							</div>
 						</div>
 					</div><!-- /.col -->
-
+					<div style="height: 40px"></div>
 				</div>
 		 	</div>
 		</div>
