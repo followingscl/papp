@@ -40,8 +40,11 @@
 					// console.log($('.form-control:focus'))
 					// alert('refre')
 					$('.form-control:focus')?$('.form-control:focus').blur():''
-					myScroll.refresh();
+					
 				})
+				$(window).resize(function(event) {
+					myScroll.refresh();
+				});
 				$('.form-control').on('tap click pan', function(e) {
 					e.stopPropagation()
 				})
