@@ -49,7 +49,8 @@
 				})
 				$(window).resize(function(event) {
 					// alert('df')
-					myScroll.refresh();
+					// myScroll.refresh();
+					alert($(window).height(), $(html).height(), $(#wrapper).height())
 				});
 				$('.form-control').on('tap click pan', function(e) {
 					e.stopPropagation()
