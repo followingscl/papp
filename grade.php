@@ -90,8 +90,7 @@
 															</td>
 															<td class="center">
 																<label class="pos-rel">
-																	<input type="checkbox" />
-																	<span class="lbl"></span>
+																	<input type="checkbox" style="width: 1em;" />
 																</label>
 															</td>
 														</tr>
@@ -101,8 +100,7 @@
 															</td>
 															<td class="center">
 																<label class="pos-rel">
-																	<input type="checkbox" />
-																	<span class="lbl"></span>
+																	<input type="checkbox" style="width: 1em;" />
 																</label>
 															</td>
 														</tr>
@@ -112,8 +110,7 @@
 															</td>
 															<td class="center">
 																<label class="pos-rel">
-																	<input type="checkbox" />
-																	<span class="lbl"></span>
+																	<input type="checkbox" style="width: 1em;" />
 																</label>
 															</td>
 														</tr>
