@@ -24,7 +24,7 @@
 			  <form class="form">
 			    <div style="padding-left: 20px; padding-right: 20px;margin-top: 20px;">
              	  <label class="inline">发表主题</label>
-             	  <label class="pull-right"><button onclick="#" style="background-color: rgb(107,130,250);border:1px solid grey;">发表</button></label>
+             	  <label class="pull-right"><button onclick="#" class="btn btn-info btn-sm">发表</button></label>
                  </div> 
 			    <div id="input" style="padding-left: 10px; margin-right: 10px; margin-top: 20px;">
 			    <input type="text" class="form-control" id="theme" placeholder="请输入主题">

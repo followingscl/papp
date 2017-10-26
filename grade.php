@@ -2,10 +2,6 @@
 			<a class="back">
 				<img src="assets/img/back.png" alt="" style="width: 1rem">
 			</a>
-				<a class="edit" style="float: right;
-				padding-top: 3%;padding-right: 3%;position: relative;">
-				  <img src="assets/img/edit.png" style="width: 2rem;vertical-align: middle;">
-				</a>
 				<script type="text/javascript">
 					var ass = document.getElementsByTagName('a');
 					for(var i = 0;i < ass.length;i ++){
@@ -134,7 +130,6 @@
 											</div>
 											<div class="form-group">
 												<label class="col-xs-3 control-label no-padding-top">星级评定</label>
-
 												<div class="col-xs-9">
 													<div class="rating inline"></div>
 													<div class="hr hr-16 hr-dotted"></div>
@@ -282,9 +277,9 @@
 	</div>
 
 
-  <?php 
-		include 'template/footer.php'
-	?>
+	  <?php 
+			include 'template/footer.php'
+		?>
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/jquery.raty.min.js"></script>
 		
@@ -293,19 +288,7 @@
 			// window.addEventListener('touchmove', func, { passive: false })
 			$('.rating').raty({
 				'cancel' : true,
-				'half': true,
-				'starType' : 'i',
-				
-				'click': function() {
-					console.log('s')
-					// setRatingColors.call(this);
-				},
-				'mouseover': function() {
-					// setRatingColors.call(this);
-				},
-				'mouseout': function() {
-					// setRatingColors.call(this);
-				}
+				'starType' : 'i'
 			})
 			
 		})

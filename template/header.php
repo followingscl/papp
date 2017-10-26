@@ -17,6 +17,13 @@
 	
 	<script type="text/javascript" src="assets/js/iscroll.js"></script>
 	<script type="text/javascript" src="assets/js/hammer.min.js"></script>
+
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+		<link rel="stylesheet" href="assets/font-awesome/4.2.0/css/font-awesome.min.css" />
+
+		<link rel="stylesheet" href="assets/css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
+	
 	<script type="text/javascript">
 		var myScroll;
 		function loaded () {
