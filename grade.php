@@ -115,6 +115,7 @@
 												</table>
 										</div><!-- /.span -->
 									</div>
+									<div class="xxx"></div>
 										<form class="form-horizontal" role="form" >
 											<div class="form-group">
 											<label class="col-xs-3 control-label no-padding-right" for="form-field-6">备注</label>

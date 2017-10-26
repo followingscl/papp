@@ -37,7 +37,7 @@
 		<script type="text/javascript">
 			$(function(){
 				var height = $('#wrapper').height()
-				 $('.person').val($('#wrapper').height())
+				 
 				$('.main-container, body, #srcoller, #wrapper, table, .form-group').on('tap click pan', function() {
 					// console.log($('.form-control:focus'))
 					// alert('refre')
@@ -51,7 +51,9 @@
 				})
 				$(window).resize(function(event) {
 					$('#wrapper').height(height);
-					if($('.form-control:focus').length == 0) {
+					// alert()
+					$('.xxx').text($('.xxx').text() + '' + $('#wrapper').height())
+					if($('#wrapper').height() == height-10) {
 						$('.footer').show();
 					}
 					
