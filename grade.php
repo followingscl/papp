@@ -32,23 +32,19 @@
 							<ul class="nav nav-tabs" id="myTab">
 								<li class="active">
 									<a class="notap" data-toggle="tab" href="#building">
-										<!-- <i class="green ace-icon fa fa-home bigger-120"></i> -->
 										综合楼
 									</a>
 								</li>
-
 								<li>
 									<a class="notap" data-toggle="tab" href="#business">
 										营业厅
 									</a>
 								</li>
-
 								<li>
 									<a class="notap" data-toggle="tab" href="#base">
 										通信基站
 									</a>
 								</li>
-
 								<li>
 									<a class="notap" data-toggle="tab" href="#project">
 										工程建设
@@ -267,7 +263,7 @@
 							</div>
 						</div>
 					</div><!-- /.col -->
-					<div style="height: 40px"></div>
+					<div style="height: 20px"></div>
 				</div>
 		 	</div>
 		</div>

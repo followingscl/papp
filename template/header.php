@@ -29,6 +29,8 @@
 		function loaded () {
 			myScroll = new IScroll('#wrapper', {
 				mouseWheel: true,
+				 scrollbars: true,
+				fadeScrollbars: true,
 				preventDefault: false
 			});
 			$('#loader-wrapper .load_title').remove();
