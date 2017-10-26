@@ -36,7 +36,7 @@
 	<script src="assets/js/jquery.hammer.js" type="text/javascript"></script>
 		<script type="text/javascript">
 			$(function(){
-				$('#wrapper').on('tap click pan', function() {
+				$('document').on('tap click pan', function() {
 					// console.log($('.form-control:focus'))
 					alert('refre')
 					$('.form-control:focus')?$('.form-control:focus').blur():''
