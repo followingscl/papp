@@ -37,7 +37,7 @@
 		<script type="text/javascript">
 			$(function(){
 				var height = $('#wrapper').height()
-				 
+				 $('#wrapper').height(height);
 				$('.main-container, body, #srcoller, #wrapper, table, .form-group').on('tap click pan', function() {
 					// $('.footer').show();
 					$('.form-control:focus')?$('.form-control:focus').blur():''
@@ -50,7 +50,7 @@
 					if($('#wrapper').height() == height) {
 						// $('.footer').show();
 					}
-					$('#wrapper').height(height);
+					
 					
 				});
 				$('.form-control').on('tap click pan', function(e) {
