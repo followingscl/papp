@@ -50,11 +50,11 @@
 					$('.footer').hide();
 				})
 				$(window).resize(function(event) {
-					$('#wrapper').height(height)
-					// $('.person').val($(window).height() + '' + $('html').height() + '' + $('#wrapper').clientTop)
-					// alert('df')
-					// myScroll.refresh();
-					// alert($(window).height(), $('html').height(), $('#wrapper').height())
+					$('#wrapper').height(height);
+					if($('.form-control:focus').length == 0) {
+						$('.footer').show();
+					}
+					
 				});
 				$('.form-control').on('tap click pan', function(e) {
 					e.stopPropagation()
