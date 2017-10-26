@@ -38,7 +38,7 @@
 					</div>
 				</div>
 				
-				<div class="row" style="padding: 23px 0;background: #fff;border-top: 1px solid #cdcdcd;">
+				<div class="row" style="padding: 123px 0;background: #fff;border-top: 1px solid #cdcdcd;">
 					<div class="col-xs-6 text-center syinner">
 						<a class="index_icon" href="virtual.php" style="background: #3E9EE0">
 								<i class="ace-icon fa fa-book white" style="font-size: 2em"></i>
