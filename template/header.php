@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="assets/css/loading.css">
 	<link rel="stylesheet" href="assets/css/try.css">
 	
-	<!-- <script type="text/javascript" src="assets/js/iscroll.js"></script> -->
+	<script type="text/javascript" src="assets/js/iscroll.js"></script>
 	<script type="text/javascript" src="assets/js/hammer.min.js"></script>
 
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -27,7 +27,7 @@
 	<script type="text/javascript">
 		var myScroll;
 		function loaded () {
-			// myScroll = new IScroll('#wrapper', { mouseWheel: true });
+			myScroll = new IScroll('#wrapper', { mouseWheel: true });
 			$('#loader-wrapper .load_title').remove();
 			$('.main-container').css('opacity','1');
 
