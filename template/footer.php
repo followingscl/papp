@@ -39,23 +39,18 @@
 				var height = $('#wrapper').height()
 				 
 				$('.main-container, body, #srcoller, #wrapper, table, .form-group').on('tap click pan', function() {
-					// console.log($('.form-control:focus'))
-					// alert('refre')
-					$('.footer').show();
-
+					// $('.footer').show();
 					$('.form-control:focus')?$('.form-control:focus').blur():''
-					
 				})
 				$('input, textarea').on('focus', function() {
-					$('.footer').hide();
+					// $('.footer').hide();
 				})
 				$(window).resize(function(event) {
-					$('#wrapper').height(height);
-					// alert()
 					$('.xxx').text($('.xxx').text() + '' + $('#wrapper').height())
-					if($('#wrapper').height() == height-10) {
-						$('.footer').show();
+					if($('#wrapper').height() == height) {
+						// $('.footer').show();
 					}
+					$('#wrapper').height(height);
 					
 				});
 				$('.form-control').on('tap click pan', function(e) {
