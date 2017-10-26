@@ -38,6 +38,7 @@
 			$(function(){
 				$('#wrapper').on('tap click pan', function() {
 					// console.log($('.form-control:focus'))
+					alert('refre')
 					$('.form-control:focus')?$('.form-control:focus').blur():''
 				})
 				$('.form-control').on('tap click pan', function(e) {
