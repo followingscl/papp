@@ -39,8 +39,13 @@
 				$('.main-container, body, #srcoller, #wrapper, table, .form-group').on('tap click pan', function() {
 					// console.log($('.form-control:focus'))
 					// alert('refre')
+					$('.footer').show();
+
 					$('.form-control:focus')?$('.form-control:focus').blur():''
 					
+				})
+				$('input, textarea').on('focus', function() {
+					$('.footer').hide();
 				})
 				$(window).resize(function(event) {
 					// alert('df')
