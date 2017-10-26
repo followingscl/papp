@@ -46,10 +46,10 @@
 					// $('.footer').hide();
 				})
 				$(window).resize(function(event) {
-					$('.xxx').text($('.xxx').text() + '' + $('#wrapper').height())
-					if($('#wrapper').height() == height) {
+					// $('.xxx').text($('.xxx').text() + '/' + $('#wrapper').height() + '/' + $('.main-container').height())
+					// if($('#wrapper').height() == height) {
 						// $('.footer').show();
-					}
+					// }
 					
 					
 				});
