@@ -43,7 +43,7 @@
 					
 				})
 				$(window).resize(function(event) {
-					alert('df')
+					// alert('df')
 					myScroll.refresh();
 				});
 				$('.form-control').on('tap click pan', function(e) {
