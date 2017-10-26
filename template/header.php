@@ -27,7 +27,10 @@
 	<script type="text/javascript">
 		var myScroll;
 		function loaded () {
-			myScroll = new IScroll('#wrapper', { mouseWheel: true });
+			myScroll = new IScroll('#wrapper', {
+				mouseWheel: true,
+				preventDefault: false
+			});
 			$('#loader-wrapper .load_title').remove();
 			$('.main-container').css('opacity','1');
 
