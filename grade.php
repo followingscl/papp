@@ -53,7 +53,7 @@
 							</ul>
 
 							<div class="tab-content">
-							<span class="test"></span>
+								<span class="test"></span>
 								<div id="building" class="tab-pane fade in active">
 									<div class="row">
 										<div class="col-xs-12">
@@ -115,7 +115,7 @@
 												</table>
 										</div><!-- /.span -->
 									</div>
-									<div class="xxx"></div>
+									<div class="row"></div>
 										<form class="form-horizontal" role="form" >
 											<div class="form-group">
 											<label class="col-xs-3 control-label no-padding-right" for="form-field-6">备注</label>
@@ -284,6 +284,22 @@
 			$('.rating').raty({
 				'cancel' : true,
 				'starType' : 'i'
+			})
+			$('#building table input').on('click', function() {
+				var l = $('#building table input').length - $('#building table input:checked').length;
+				var star = $('#building .rating i');
+
+				if(l == 0) {
+					$(star)[5].click()
+				} else if (1<= l && l <= 3) {
+					$(star)[4].click()
+				} else if (4<= l && l <= 8) {
+					$(star)[3].click()
+				}	else if (9<= l && l <= 14) {
+					$(star)[2].click()
+				}else if (15<= l) {
+					$(star)[1].click()
+				}
 			})
 			
 		})
