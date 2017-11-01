@@ -115,46 +115,46 @@
 												</table>
 										</div><!-- /.span -->
 									</div>
-									<div class="row"></div>
-										<form class="form-horizontal" role="form" >
-											<div class="form-group">
-											<label class="col-xs-3 control-label no-padding-right" for="form-field-6">备注</label>
-												<div class="col-xs-9">
-												<textarea class="form-control" name="" id=""></textarea>
-												</div>
+									<!-- <div class="row"></div> -->
+									<form class="form-horizontal" role="form" >
+										<div class="form-group">
+										<label class="col-xs-3 control-label no-padding-right" for="form-field-6">备注</label>
+											<div class="col-xs-9">
+											<textarea class="form-control" name="" id=""></textarea>
 											</div>
-											<div class="form-group">
-												<label class="col-xs-3 control-label no-padding-top">星级评定</label>
-												<div class="col-xs-9">
-													<div class="rating inline"></div>
-													<div class="hr hr-16 hr-dotted"></div>
-												</div>
+										</div>
+										<div class="form-group">
+											<label class="col-xs-3 control-label no-padding-top">星级评定</label>
+											<div class="col-xs-9">
+												<div class="rating inline"></div>
+												<div class="hr hr-16 hr-dotted"></div>
 											</div>
-											<div class="form-group">
-												<label class="col-xs-3 control-label no-padding-right" for="form-field-6">检查人员</label>
-												<div class="col-xs-9">
-													<input class="form-control" data-rel="tooltip" type="text" id="form-field-6" placeholder="检查人员" title="Hello Tooltip!" data-placement="bottom" />
-												</div>
+										</div>
+										<div class="form-group">
+											<label class="col-xs-3 control-label no-padding-right" for="form-field-6">检查人员</label>
+											<div class="col-xs-9">
+												<input class="form-control" data-rel="tooltip" type="text" id="form-field-6" placeholder="检查人员" title="Hello Tooltip!" data-placement="bottom" />
 											</div>
-											<div class="form-group">
-												<label class="col-xs-3 control-label no-padding-right" for="form-field-6">受检人</label>
-												<div class="col-xs-9">
-													<input class="form-control person" data-rel="tooltip" type="text" id="form-field-6" placeholder="受检人" title="Hello Tooltip!" data-placement="bottom" />
-												</div>
+										</div>
+										<div class="form-group">
+											<label class="col-xs-3 control-label no-padding-right" for="form-field-6">受检人</label>
+											<div class="col-xs-9">
+												<input class="form-control person" data-rel="tooltip" type="text" id="form-field-6" placeholder="受检人" title="Hello Tooltip!" data-placement="bottom" />
 											</div>
-											<div class="form-group">
-												<label class="col-xs-3 control-label no-padding-right" for="form-field-6">月日</label>
-												<div class="col-xs-9">
-													<input class="form-control" data-rel="tooltip" type="text" id="form-field-6" placeholder="月日" title="Hello Tooltip!" data-placement="bottom" />
-												</div>
+										</div>
+										<div class="form-group">
+											<label class="col-xs-3 control-label no-padding-right" for="form-field-6">月日</label>
+											<div class="col-xs-9">
+												<input class="form-control" data-rel="tooltip" type="text" id="form-field-6" placeholder="月日" title="Hello Tooltip!" data-placement="bottom" />
 											</div>
-											<div class="form-group">
-												<label class="col-xs-3 control-label no-padding-right" for="form-field-6"></label>
-												<div class="col-xs-9">
-													<button class="btn btn-info">提交</button>
-												</div>
+										</div>
+										<div class="form-group">
+											<label class="col-xs-3 control-label no-padding-right" for="form-field-6"></label>
+											<div class="col-xs-9">
+												<button class="btn btn-info">提交</button>
 											</div>
-										</form>
+										</div>
+									</form>
 								</div>
 
 								<div id="business" class="tab-pane fade">
@@ -281,6 +281,22 @@
 		<script type="text/javascript">
 		jQuery(function($){
 			// window.addEventListener('touchmove', func, { passive: false })
+			$.ajax({
+				url: '/path/to/file',
+				type: 'default GET (Other values: POST)',
+				dataType: 'default: Intelligent Guess (Other values: xml, json, script, or html)',
+				data: {param1: 'value1'},
+			})
+			.done(function() {
+				console.log("success");
+			})
+			.fail(function() {
+				console.log("error");
+			})
+			.always(function() {
+				console.log("complete");
+			});
+			
 			$('.rating').raty({
 				'cancel' : true,
 				'starType' : 'i'
